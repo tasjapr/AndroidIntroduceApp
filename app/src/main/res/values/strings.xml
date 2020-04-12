@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">AndroidIntroduceApp</string>
+    <string name="authorization">Авторизация</string>
+    <string name="enter_phone_text">Введите свой номер телефона, мы отправим вам код подтверждения</string>
+    <string name="wrong_mobile_phone">Неправильный номер телефона. Проверьте его и попробуйте снова.</string>
+    <string name="get_code">Получить смс код</string>
 </resources>
