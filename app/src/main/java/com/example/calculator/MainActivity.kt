@@ -3,6 +3,7 @@ package com.example.calculator
 import android.os.Bundle
 import android.text.Editable
 import android.text.TextWatcher
+import android.view.View
 import androidx.appcompat.app.AppCompatActivity
 import kotlinx.android.synthetic.main.activity_main.*
 
@@ -17,7 +18,7 @@ class MainActivity : AppCompatActivity() {
                 btnGetCode.isEnabled = etPhone.text.toString().length == 12
                 if (btnGetCode.isEnabled) {
                     etPhone.setBackgroundResource(R.drawable.et_phone_correct)
-
+                    tvErrorText.visibility = View.GONE
                 }
             }
 
