@@ -15,6 +15,10 @@ class MainActivity : AppCompatActivity() {
         etPhone.addTextChangedListener(object : TextWatcher {
             override fun afterTextChanged(s: Editable?) {
                 btnGetCode.isEnabled = etPhone.text.toString().length == 12
+                if (btnGetCode.isEnabled) {
+                    etPhone.setBackgroundResource(R.drawable.et_phone_correct)
+
+                }
             }
 
             override fun beforeTextChanged(s: CharSequence?, start: Int, count: Int, after: Int) {

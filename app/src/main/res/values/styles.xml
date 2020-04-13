@@ -23,4 +23,16 @@
         <item name="android:textAppearance">@style/text20_dark</item>
     </style>
 
+    <style name="et_correct">
+        <item name="android:background">@drawable/et_phone_wrong</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
+    <style name="et_wrong">
+        <item name="android:background">@drawable/et_phone_correct</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+
 </resources>
